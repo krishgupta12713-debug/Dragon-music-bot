@@ -7,10 +7,13 @@ import datetime
 import asyncio
 
 # ================= CONFIG =================
-LAVALINK_URI = "http://fi14.bot-hosting.cloud:25209"
-LAVALINK_PASS = "glaceyt"
-LAVALINK_ID = "fi14"
-DEFAULT_PREFIX = "!"
+{
+  name: "fi14",
+  password: "glaceyt",
+  host: "fi14.bot-hosting.cloud",
+  port: 25209,
+  secure: false
+}
 
 COLORS = {"main": 0xFF0080, "success": 0x00FF88, "error": 0xFF0040, "queue": 0x8A2BE2, "filter": 0x00FFFF}
 
